@@ -1,71 +1,97 @@
-# 📊 Sales Performance Dashboard 
+# 📊 Sales Performance Dashboard (Excel)
 
-## Overview
+Interactive Sales Performance Dashboard built in Microsoft Excel using **Power Query, Power Pivot, DAX, PivotTables, PivotCharts, Slicers, and Timeline**  designed to transform raw sales data into an interactive business reporting solution.
 
-I built this interactive **Sales Performance Dashboard in Microsoft Excel** to help sales and business teams quickly understand overall sales performance, customer behavior, product performance, and returns.
+## 📊 Overview
 
-The dashboard turns raw sales data into an interactive reporting tool where users can explore performance by **date, region, category, gender, product color, and marital status** using slicers and a timeline.
+This project transforms raw sales data into a fully interactive Excel dashboard for analyzing **sales performance, profitability, customers, products, regions, and returns**.
 
-## What I Built
+Users can dynamically explore the data using **slicers and a timeline** to filter the dashboard by date, region, category, gender, product color, and marital status.
 
-* Interactive KPI cards for:
+The dashboard provides a centralized view of key sales KPIs and performance trends, helping users identify patterns and make data-driven decisions without manually analyzing large datasets.
 
-  * Total Sales
-  * Total Profit
-  * Total Orders
-  * Total Customers
-  * Profit Margin
-  * Returned Quantity
-  * Average Selling Price
-  * Return Rate
+## ✨ Features
 
-* Monthly sales trend across 2020–2022
+* **8 Interactive KPI Cards** — Total Sales, Total Profit, Total Orders, Total Customers, Profit Margin, Returned Quantity, Average Selling Price, and Return Rate
+* **Monthly Sales Trend** — Sales performance tracked across 2020–2022
+* **Regional Analysis** — Compare sales performance across regions
+* **Top 10 Products** — Identify the highest-performing products by sales
+* **Category Analysis** — Analyze sales performance across product categories
+* **Subcategory Analysis** — Compare performance across product subcategories
+* **Customer Analysis** — Sales breakdown by gender and marital status
+* **Product Color Analysis** — Analyze sales performance by product color
+* **Returns Analysis** — Monitor returned quantity by product category
+* **Interactive Slicers** — Filter the dashboard by region, category, gender, color, and marital status
+* **Timeline Filter** — Analyze sales performance dynamically by date
+* **Integrated Dashboard** — All visualizations and KPIs update based on selected filters
 
-* Sales performance by region
+## 🖼️ Dashboard Preview
 
-* Top 10 products by sales
+### Dashboard Overview
 
-* Sales by product category
+![Sales Performance Dashboard](Dashboard1.png)
 
-* Sales by gender
+![Sales Performance Dashboard](Dashboard2.png)
 
-* Sales by product color
 
-* Sales by subcategory
+## 🛠️ Tech Stack
 
-* Returned quantity by category
+* **Microsoft Excel** — Dashboard development and visualization
+* **Power Query** — Data cleaning and transformation
+* **Power Pivot** — Data modeling and table relationships
+* **DAX** — Business calculations and KPI measures
+* **PivotTables** — Data analysis and summaries
+* **PivotCharts** — Interactive data visualization
+* **Slicers & Timeline** — Dynamic dashboard filtering
 
-* Interactive slicers and timeline for dynamic filtering
 
-## Who This Dashboard Is For
+## 🚀 How to Use
 
-This dashboard is designed for **sales managers, business teams, and decision-makers** who need a simple way to monitor performance and identify trends without manually analyzing large datasets.
+1. Download `Sales Performance Dashboard.xlsx`
+2. Open the workbook in Microsoft Excel
+3. Enable content if Excel displays a security prompt
+4. Open the **Dashboard** sheet
+5. Use the **slicers and timeline** to filter the dashboard
+6. Select different regions, categories, customer segments, or dates to explore the analysis
+7. Review the KPI cards and charts to identify sales and profitability trends
 
-It can help answer questions such as:
+## 📌 Key Learnings
+
+This project demonstrates:
+
+* Building an end-to-end Excel analytics solution from raw data to interactive dashboard
+* Cleaning and transforming datasets using **Power Query**
+* Creating a relational data model using **Power Pivot**
+* Developing business KPIs and analytical measures using **DAX**
+* Building interactive dashboards using **PivotTables and PivotCharts**
+* Connecting multiple dashboard components through **slicers and timelines**
+* Analyzing sales, profitability, customers, products, regions, and returns
+* Designing dashboards focused on practical business decision-making
+
+## 🎯 Who This Dashboard Is For
+
+This dashboard is designed for:
+
+* **Sales Managers** — to monitor sales and profitability performance
+* **Business Teams** — to identify product, customer, and regional trends
+* **Decision-Makers** — to quickly evaluate KPIs and performance
+* **Analysts** — to explore sales data through interactive filtering
+
+### Business Questions Answered
 
 * How are sales performing over time?
-* Which regions generate the most revenue?
-* Which products contribute the most sales?
+* Which regions generate the highest sales?
+* Which products contribute the most revenue?
 * Which categories and subcategories perform best?
+* How profitable is the business?
+* Which customer segments contribute most to sales?
 * How many products are being returned?
-* How do customer segments contribute to sales?
+* How does return performance vary across categories?
 
-## Tech Stack
+## 📄 License
 
-* **Microsoft Excel**  Dashboard development and visualization
-* **Power Query**  Data cleaning and transformation
-* **Power Pivot**  Data modeling and relationships
-* **DAX**  Business calculations and KPIs
-* **Pivot Tables**  Data analysis and summaries
-* **Pivot Charts**  Interactive visualizations
-* **Slicers & Timeline**  Dynamic dashboard filtering
+This project is licensed under the MIT License — see the (LICENSE) file for details.
 
-## Project Files
+---
 
-* `Sales Performance Dashboard.xlsx` ( Complete interactive Excel dashboard )
-
-## Contact
-
-Interested in working together or discussing this project?
-
-**Connect with me on GitHub**
+**Author:** Mueeza Irfan
