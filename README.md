@@ -31,6 +31,8 @@ The dashboard provides a centralized view of key sales KPIs and performance tren
 
 ![Sales Performance Dashboard](Dashboard1.png)
 
+
+
 ![Sales Performance Dashboard](Dashboard2.png)
 
 
